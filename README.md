@@ -12,8 +12,9 @@ To build the logistic regression model, I first seperated the dataset into train
 * Overall, the model scored an accuracy of 99% inidicating a high performance
 * Healthy loans have a precision of 100% and recall scores of 99%
     * Precision score indicates the model is reliable when predicting healthy loans
+    * Recall score indicates the model is effective at capturing most of the healthy loans
 * For loans at risk of defaulting, the precision and recall scores were 85% and 95% respectively
 
 ### **Summary**
 
-Taking into account the results of the model, I would recommend the use of logisitic regression because it is good at identifying borrowers with healthy loans as well as those who are at high-risk of defaultin. In the case of this analysis, it would be crucial and beneficial to predict the those who are at high-risk of defaulting. 
+Taking into account the results of the model, I would recommend the use of logisitic regression because it is good at identifying borrowers with healthy loans as well as those who are at high-risk of defaultin. In the case of this analysis, it would be crucial and beneficial to predict the those who are at high-risk of defaulting. Although the model scored high in its performance, I would recommended testing for outliers to ensure the model is balanced. 
