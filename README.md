@@ -7,4 +7,4 @@ The purpose of the analysis was to train and evalute a logistic regression model
 
 **Results**
 
-“*”  b
+“*”b
