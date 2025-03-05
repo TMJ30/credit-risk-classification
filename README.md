@@ -7,12 +7,12 @@ The purpose of the analysis was to train and evalute a logistic regression model
 COME BACK TO THIS SECTION
 
 
-**Results**
+### **Results**
 
 * Overall acccuracy score --> 99%
 * For healthy loans the precision and recall scores were 100% and 99% respectively
 * For loans at risk of defaulting, the precision and recall scores were 85% and 95% respectively
 
-**Summary**
+### **Summary**
 
 Taking into account the results of the model, I would recommend the use of logisitic regression because it is good at identifying borrowers with healthy loans as well as those who are at high-risk of defaultin. In the case of this analysis, it would be crucial and beneficial to predict the those who are at high-risk of defaulting. 
