@@ -9,11 +9,13 @@ To build the logistic regression model, I first seperated the dataset into train
 
 ### **Results of the Logistic Regression Model**
 
-* Overall, the model scored an accuracy of 99% inidicating a high performance
-* Healthy loans have a precision of 100% and recall scores of 99%
-    * Precision score indicates the model is reliable when predicting healthy loans
-    * Recall score indicates the model is effective at capturing most of the healthy loans
-* For loans at risk of defaulting, the precision and recall scores were 85% and 95% respectively
+* Overall, the model scored an accuracy of 99% inidicating a high performance.
+* Healthy loans had a precision of 100% and recall of 99%.
+   * Precision score indicates the model is reliable when predicting healthy loans.
+   * Recall score indicates the model is effective at capturing most of the healthy loans.
+* High-risk loans had a precision of 85% and recall 95%.
+   * Precision score indicates the model is reliable when predicting high-risk loans but 15% of the predictions are incorrect.
+   * Recall score indicates the model is effective at capturing most of the high-risk loans, missing only 5% of them.
 
 ### **Summary**
 
