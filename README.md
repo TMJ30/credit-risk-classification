@@ -21,17 +21,16 @@ The dataset includes 75,036 healthy loans and 2,500 high-risk loans with borrowe
    * Generated a confusion matrix to summarize predictions and identify errors
    * Created a classification report to assess precision, recall, and overall reliability
 
+## Results
+* **Model Accuracy:** 99%
+* **Healthy Loans (Class 0):**
+  * Precision: 100% → model is reliable when predicting healthy loans
+  * Recall: 99% → model captures the majority of healthy loans
+* **High-Risk Loans (Class 1):**
+  * Precisions: 85% → 15% of predictions are incorrect
+  * Recall: 95% → model captures most high-risk loans, missing only 5%
+> The model performs well for both classes, prioritzing the detection of high-risk borrowers while maintaining strong reliability for health loans
 
-### **Results of the Logistic Regression Model**
-
-* Overall, the model scored an accuracy of 99% inidicating a high performance.
-* Healthy loans had a precision of 100% and recall of 99%.
-   * Precision score indicates the model is reliable when predicting healthy loans.
-   * Recall score indicates the model is effective at capturing majority of the healthy loans.
-* High-risk loans had a precision of 85% and recall 95%.
-   * Precision score indicates the model is reliable when predicting high-risk loans but 15% of the predictions are incorrect.
-   * Recall score indicates the model is effective at capturing most of the high-risk loans, missing only 5% of them.
-
-### **Summary**
+## Summary
 
 Taking into account the results of the model, I would recommend the use of logistic regression because it is good at identifying borrowers with healthy loans as well as those who are at high-risk of defaulting. In the case of this analysis, it is crucial and beneficial to prioritize results for the high-risk loans. Although the model scored high in its performance, I would recommend testing for outliers to ensure the model is balanced as well.
