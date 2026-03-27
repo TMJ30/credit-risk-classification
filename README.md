@@ -1,10 +1,25 @@
-# Credit Risk Analysis Report
+# Loan Risk Analysis with Logistics Regression
 
-### **Overview**
+## Overview
+The purpose of this analysis was to train and evaluate a logistic regression model capable of identifying the creditworthiness of borrowers. Using a dataset of historical lending activity, the model predicts:
+* **Healthy loans (class 0)**
+* **High-risk loans (class 1)**
 
-The purpose of the analysis was to train and evaluate a logistic regression model with the ability to identify the creditworthiness of borrowers. In order to create the model, we were given a data set of historical lending activities which includes the following information per borrower: loan size, interest rate, income, deb to income ratio, number of credit accounts open, derogatory marks (history of financial difficulties), and the total debt accumulation. Taking into consideration the borrowers' profile, I needed to predict healthy loans (class 0) and loans at high-risk of default (class 1). In the historical dataset, there were 75,036 healthy loans and 2,500 high-risk loans that were reported. 
+The dataset includes 75,036 healthy loans and 2,500 high-risk loans with borrower features such as:
+* Loan size
+* Interest rate
+* Income
+* Debt-to-income ratio
+* Number of credit accounts open
+* Derogatory marks (financial difficulties)
+* Total debt accumulation
 
-To build the logistic regression model, I first separated the data into training and testing sets. By using the training set, I was able to teach the model, exposing it to known data. The testing set was then used to evaluate the model's performance on unseen data. To evaluate the model's accuracy performance, a confusion matrix was then generated providing a summary of the predicted results and identifying areas where it may be making errors. In addition to the confusion matrix, a classification report was created to help assess the logistic regression model's performance and reliability in detail.
+## Workflow
+1. **Split Data:** Separated into training and testing sets to teach the model and evaluate performance
+2. **Train Model:** Logistic regression was trained on the training set
+3. **Evaluate Performance:**
+   * Generated a confusion matrix to summarize predictions and identify errors
+   * Created a classification report to assess precision, recall, and overall reliability
 
 
 ### **Results of the Logistic Regression Model**
