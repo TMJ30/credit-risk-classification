@@ -32,5 +32,6 @@ The dataset includes 75,036 healthy loans and 2,500 high-risk loans with borrowe
 > The model performs well for both classes, prioritzing the detection of high-risk borrowers while maintaining strong reliability for health loans
 
 ## Summary
-
-Taking into account the results of the model, I would recommend the use of logistic regression because it is good at identifying borrowers with healthy loans as well as those who are at high-risk of defaulting. In the case of this analysis, it is crucial and beneficial to prioritize results for the high-risk loans. Although the model scored high in its performance, I would recommend testing for outliers to ensure the model is balanced as well.
+* Logistic regression is recommended for identifying both healthy and high-risk borrowers
+* High-risk loan detection is prioritized due to its importance in landing decisions
+* Although performance is strong, further testing for outliers is suggested to ensure model balance and robustness
